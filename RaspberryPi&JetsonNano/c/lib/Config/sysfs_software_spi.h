@@ -84,7 +84,7 @@ typedef enum {
 /**
  * Define SPI attribute
 **/
-typedef struct SPIStruct {
+typedef struct SPIStructSw {
     //GPIO
     uint16_t SCLK_PIN;
     uint16_t MOSI_PIN;
